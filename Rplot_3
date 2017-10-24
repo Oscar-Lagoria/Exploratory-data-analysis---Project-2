@@ -1,4 +1,4 @@
-#Changes in Coal Emissions.
+#PM2.5 in Baltimore City by source.
 
 library(ggplot2)
 sub2 <- subset(NEI, fips == "24510")
