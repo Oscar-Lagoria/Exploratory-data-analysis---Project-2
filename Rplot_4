@@ -1,4 +1,4 @@
-#Motor vehicle emissions im Baltimore City.
+#Examining the Coal emissions.
 
 SCC.sub <- SCC[grepl("Coal" , SCC$Short.Name), ]
 NEI.sub <- NEI[NEI$SCC %in% SCC.sub$SCC, ]
